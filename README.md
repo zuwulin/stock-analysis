@@ -10,7 +10,6 @@ Additionally, a secondary goal of the current project was to attempt to refactur
 
 ### Stock Performance For 2017 Versus 2018
 ![Screenshot_6](https://user-images.githubusercontent.com/99566803/158032126-68e0fb2d-e4ca-4c7e-9565-d28d3bc33708.png)
-
 ![Screenshot_4](https://user-images.githubusercontent.com/99566803/158032127-da797091-a4f6-472a-aff9-048d1be6752a.png)
 
 When comparing the results of stock performance between 2017 and 2018, a number of trends can be immediately identified. First, it should be evident that 2017 was a much more successful year for the stock market overall, with only the TEPR stock category performing negatively during that year. Opposite to that, most of the stocks ended up in the negative skew in 2018 (meaning that they lost in value, as oppoosed to gaining it), with only two stocks - ENPH and RUN - performing positively during said calendar year.
