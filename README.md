@@ -21,10 +21,13 @@ Overall, however, it is hard to establish any sort of predictable stock pattern 
 ### Code Performance Between The Original Script and The Refactored Version
 ![Screenshot_2](https://user-images.githubusercontent.com/99566803/158032132-dbcebff2-d9bc-45c0-a742-f6bbb4040659.png)
 ![Screenshot_3](https://user-images.githubusercontent.com/99566803/158032133-ade7f52f-44ad-45bc-b838-3a21a74a4a47.png)
+
+The original, "raw" code ran the script in 0.76 seconds for the year 2017 and in 0.75 seconds for the year 2018. Arguably, in both instances the original code ran relatively fast and smoothly. It should be taken into consideration, however, that the data analyzed with the use of the code consisted of approximately 3000 rows of Excel data, meaning, in other words, that the code can have substantial timing flaws if we were to run it on a much bigger dataset.
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/99566803/158032139-74600d68-9b55-4004-a3b6-a6abfee85968.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/99566803/158032141-c1cc1a1a-aa54-46a7-8d4a-c8113631b75b.png)
 
-
+As a result, the process of refactoring have been applied to the original code in order to improve the logic of it, and to minimize execution time by reducing the number of steps that the program would have to take in order to calculate the outcome. As can be seen on the associated screenshots, refactoring proved to be a worthy endeavour, as the execution time was cut down to 0.11 seconds for 2017 and to 0.10 seconds for 2018. In other words, these small logistic changes allowed our code to run, on average, about 0.64 seconds faster for either of the datasets.
 
 
 ## Summary
