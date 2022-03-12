@@ -27,11 +27,19 @@ The original, "raw" code ran the script in 0.76 seconds for the year 2017 and in
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/99566803/158032139-74600d68-9b55-4004-a3b6-a6abfee85968.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/99566803/158032141-c1cc1a1a-aa54-46a7-8d4a-c8113631b75b.png)
 
-As a result, the process of refactoring have been applied to the original code in order to improve the logic of it, and to minimize execution time by reducing the number of steps that the program would have to take in order to calculate the outcome. As can be seen on the associated screenshots, refactoring proved to be a worthy endeavour, as the execution time was cut down to 0.11 seconds for 2017 and to 0.10 seconds for 2018. In other words, these small logistic changes allowed our code to run, on average, about 0.64 seconds faster for either of the datasets.
+As a result, the process of refactoring have been applied to the original code in order to improve the logic of it, and to minimize execution time by reducing the number of steps that the program would have to take in order to calculate the outcome. As can be seen on the associated screenshots, refactoring proved to be a worthy endeavour, as the execution time was cut down to 0.11 seconds for 2017 and to 0.10 seconds for 2018. In other words, these small logistic changes allowed our code to run, on average, about **0.64 seconds faster** for either of the datasets.
 
 
 ## Summary
 
 ### Advantages and Disadvantages of Refactoring Code
+**Advantages:**
+Refactured code oftentimes appears more clear and comprehensible than an "unpolished" one. It is also generally shorter than the originally created code, simply for the solutions within refactured code are more "elegant" in their execution and write-ups, such as the case with nested for loops.
+Refactured code allows also for the developer to more easily come back to it later on, especially if a substantial amount of time has passed since the original submission have been made. This is partially attributed to the "modular" nature of the refactored code, and partially due to the less challenging coding functions employed.
+
+**Disadvantages:**
+Naturally, refacturing the code can take a long time - potentially longer than it would take to simply run the program with the original code. In that sense, it is a trade-off between fast completion of original work versus possibility to expand the applicability of the code when refactoring for it to be reusable later on.
+Certain refacturing processess can be overlooked or plain out completely invisible to and by the end-user, resulting in an unpleasant feeling of wasted time on the client side.
+
 
 ### Applicability to Current Code
