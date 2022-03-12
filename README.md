@@ -34,12 +34,16 @@ As a result, the process of refactoring have been applied to the original code i
 
 ### Advantages and Disadvantages of Refactoring Code
 **Advantages:**
+
 Refactured code oftentimes appears more clear and comprehensible than an "unpolished" one. It is also generally shorter than the originally created code, simply for the solutions within refactured code are more "elegant" in their execution and write-ups, such as the case with nested for loops.
 Refactured code allows also for the developer to more easily come back to it later on, especially if a substantial amount of time has passed since the original submission have been made. This is partially attributed to the "modular" nature of the refactored code, and partially due to the less challenging coding functions employed.
 
 **Disadvantages:**
+
 Naturally, refacturing the code can take a long time - potentially longer than it would take to simply run the program with the original code. In that sense, it is a trade-off between fast completion of original work versus possibility to expand the applicability of the code when refactoring for it to be reusable later on.
 Certain refacturing processess can be overlooked or plain out completely invisible to and by the end-user, resulting in an unpleasant feeling of wasted time on the client side.
 
-
 ### Applicability to Current Code
+In terms of the current code, similar pros and cons apply. Thus, for example, the original VBA script served its purpose as intended - it found the appropriate stocks, calculated their starting and ending prices, and delivered the information specifically important to the end-user in that the stock was either losing or gaining in value. The original code, however, as have been mentioned previously, executed itself in a slower manner than the refactored code, which in and by itself might not be a big issue. However, the original code was also logically inferior to the refactored script, as the original code had to scan through the entire document more than once in order to collect the required information, while the refactored code only had to go through the document once (reducing that way both the time it took for the code to run, and the memory load that the computer is silently taking in the background).
+
+To conclude, refactoring seems to always be beneficial for the developers, the code itself, and the end user, for varying reasons. And while the effects of refacturing might not be immediately available for us to see, they truly lower the amount of hard work, debugging, and "brute force" that the developers would need to initiate if they were to come back to their code later on.
